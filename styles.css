@@ -91,3 +91,9 @@ p{
 .footer a:hover{
     color: rgb(7, 44, 254);
 }
+@media screen and (max-width: 768px){
+    .card{
+        width: 100%;
+    }   
+   
+}
