@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    background-color: rgb(254, 209, 7);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.card {
+    background-color: whitesmoke;
+    text-align: left;
+    padding: 20px;
+    width: 320px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px black;
+    
+}
+.card-image{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px
+
+}
+.label{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 5px;
+    border-radius: 6px;
+    padding: 5px 10px;
+    color: black;
+    background-color: rgb(254, 209, 7);
+}
+p{
+    font-size: 14px;
+    margin: 10px 0;
+    color: rgb(67, 63, 63);
+}
+.article-title{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    margin-bottom: 10px;
+}
+.article-title:hover{
+    color: rgb(254, 209, 7);
+}
+.author{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.author a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 5px;
+}
+.author img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 12px;
+    text-align: center;
+}
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+.footer a:hover{
+    color: rgb(7, 44, 254);
+}
